@@ -1,0 +1,37 @@
+* {
+    font-family: 'Lato', sans-serif;}
+
+#heading {
+    text-align: center;
+}
+
+#headerDiv {
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+#teamDiv {
+    display: flex;
+    justify-content: space-around;
+    border: solid black 1px;
+    border-radius: 5px;
+    min-height: 70px;
+    margin: 30px;
+}
+
+.littleDiv {
+    margin: 30px;
+    border: solid black 1px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.littleHeader {
+    background-color: cyan;
+    margin-top: 0;
+    border-radius: 10px;
+    padding: 10px;
+}
