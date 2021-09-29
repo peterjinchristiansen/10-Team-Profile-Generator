@@ -43,7 +43,7 @@ const engineerQuestions = [
     {
         type: "input",
         name: "github",
-        message: "What is the engineer's GitHub?"
+        message: "What is the engineer's GitHub username?"
     }
 ]
 

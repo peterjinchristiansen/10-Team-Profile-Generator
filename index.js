@@ -7,13 +7,12 @@ const engineerQ = questions.engineer;
 const internQ = questions.intern;
 const finalQ = questions.final;
 
-const create = require('./clutter/create');
+const create = require('./clutter/create/create');
 const createMan = create.Manager;
 const createEng = create.Engineer;
 const createInt = create.Intern;
 
 const template = require('./clutter/template')
-console.log(template);
 
 const myTeam = [];
 
@@ -62,3 +61,5 @@ function createPage() {
 }
 
 askManager();
+
+module.exports = bridgeFunction;

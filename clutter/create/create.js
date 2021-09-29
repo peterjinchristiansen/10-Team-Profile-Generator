@@ -6,19 +6,19 @@ class Employee {
     }
 
     getName() {
-
+        return this.name;
     };
 
     getId() {
-
+        return this.id;
     };
 
     getEmail() {
-
+        return this.email;
     };
 
     getRole() {
-
+        return "Employee";
     };
 
 }
@@ -30,8 +30,12 @@ class Manager extends Employee {
         this.job = job;
     }
 
-    getRole() {
+    getOffice() {
+        return this.office;
+    }
 
+    getRole() {
+        return "Manager";
     }
 
 }
@@ -44,11 +48,11 @@ class Engineer extends Employee {
     }
 
     getGithub() {
-
+        return this.github;
     }
 
     getRole() {
-
+        return "Engineer";
     }
 
 }
@@ -61,11 +65,11 @@ class Intern extends Employee {
     }
 
     getSchool() {
-
+        return this.school;
     }
 
     getRole() {
-
+        return "Intern";
     }
 
 }
@@ -74,5 +78,5 @@ module.exports = {
     Employee: Employee,
     Manager: Manager,
     Engineer: Engineer,
-    Intern, Intern
+    Intern: Intern,
 }
