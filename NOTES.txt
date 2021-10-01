@@ -1,6 +1,0 @@
-Get to know Jest
-
-
-Finish doing all the methods in create.js
-
-
