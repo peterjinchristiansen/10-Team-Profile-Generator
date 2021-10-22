@@ -1,18 +1,18 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const questions = require('./clutter/questions');
+const questions = require('./develop/questions');
 const managerQ = questions.manager;
 const engineerQ = questions.engineer;
 const internQ = questions.intern;
 const finalQ = questions.final;
 
-const create = require('./clutter/create/create');
+const create = require('./develop/create/create');
 const createMan = create.Manager;
 const createEng = create.Engineer;
 const createInt = create.Intern;
 
-const template = require('./clutter/template')
+const template = require('./develop/template')
 
 const myTeam = [];
 

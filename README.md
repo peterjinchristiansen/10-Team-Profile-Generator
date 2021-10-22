@@ -15,7 +15,7 @@
 
 [Installation](#installation)
 
-
+[Testing](#testing)
 
 
 
@@ -42,9 +42,10 @@ To install your dependencies, you will be using the following command:
 ---
 
     
+## Testing
 
-
-
+To run the tests, you will be using the following command:
+    npm jest
 
     
 ## Questions

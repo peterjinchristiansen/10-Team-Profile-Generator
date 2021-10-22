@@ -5,7 +5,7 @@ const firstHTML = `
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Members</title>
-    <link rel="stylesheet" href="./clutter/style.css">
+    <link rel="stylesheet" href="./develop/style.css">
     <style>@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');</style>
 </head>
 <body>
