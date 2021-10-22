@@ -45,7 +45,7 @@ To install your dependencies, you will be using the following command:
 ## Testing
 
 To run the tests, you will be using the following command:
-    npm jest
+    npm run test
 
     
 ## Questions
@@ -61,7 +61,7 @@ If you have any questions, you can email me at peterjinchristiansen@gmail.com. Y
 
 ## Walkthrough
 
-(enter vid lnik here)
+https://watch.screencastify.com/v/y53SBcVqVN5aZcw40stq
 
 ---
         
